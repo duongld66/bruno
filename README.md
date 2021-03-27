@@ -63,8 +63,8 @@ Take | integer | Số lượng bản ghi muốn lấy
 
 namespace App\Http\Controllers;
 
-use ProjectName\Api\Controller\EloquentBuilderTrait;
-use ProjectName\Api\Controller\LaravelController;
+use Duongld\Api\Controller\EloquentBuilderTrait;
+use Duongld\Api\Controller\LaravelController;
 use App\Models\Book;
 
 class BookController extends LaravelController
@@ -113,7 +113,7 @@ Lấy ra tất cả id của `Author`.
 
 Tách mảng `Author` ra thêm 1 mảng riêng nữa. trong `Book` vẫn sẽ có ids của `Author`
 
-[Xem về eager loading trong ProjectName\Architect's README](https://github.com/duongld66/architect)
+[Xem về eager loading trong Duongld\Architect's README](https://github.com/duongld66/architect)
 
 ### Phân trang
 
@@ -264,8 +264,8 @@ Take | integer | Number of records taken
 
 namespace App\Http\Controllers;
 
-use ProjectName\Api\Controller\EloquentBuilderTrait;
-use ProjectName\Api\Controller\LaravelController;
+use Duongld\Api\Controller\EloquentBuilderTrait;
+use Duongld\Api\Controller\LaravelController;
 use App\Models\Book;
 
 class BookController extends LaravelController
