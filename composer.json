@@ -2,7 +2,7 @@
     "name": "duongld/bruno",
     "autoload": {
         "psr-4": {
-            "Ninhtqse\\Bruno\\": "src/"
+            "Duongld\\Bruno\\": "src/"
         }
     },
     "require": {
