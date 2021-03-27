@@ -1,0 +1,18 @@
+{
+    "name": "ninhtqse/bruno",
+    "autoload": {
+        "psr-4": {
+            "Ninhtqse\\Bruno\\": "src/"
+        }
+    },
+    "require": {
+        "laravel/framework": ">=5.4"
+    },
+    "require-dev": {
+        "ninhtqse/architect": "dev-master",
+        "satooshi/php-coveralls": "dev-master@dev"
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true,
+    "license": "MIT"
+}
