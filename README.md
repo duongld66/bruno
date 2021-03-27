@@ -21,7 +21,7 @@ Vì những ý tưởng của mình và việc từ chối từ bỏ chúng, ôn
 
 * Phân tích cú pháp các thông số GET để tải động các tài nguyên liên quan, sắp xếp và phân trang
 * Lọc tài nguyên nâng cao bằng cách sử dụng nhóm bộ lọc
-* Sử dụng [Ninhtqse\Architect](https://github.com/ninhtqse/architect) để tải bên ngoài, tải id hoặc tải nhúng các tài nguyên liên quan
+* Sử dụng [duongld\Architect](https://github.com/duongld66/architect) để tải bên ngoài, tải id hoặc tải nhúng các tài nguyên liên quan
 
 ## Hướng dẫn
 
@@ -31,7 +31,7 @@ Vì những ý tưởng của mình và việc từ chối từ bỏ chúng, ôn
 ## Cài đặt
 
 ```bash
-composer require ninhtqse/bruno
+composer require duongld/bruno
 ```
 
 ## Sử dụng
@@ -63,8 +63,8 @@ Take | integer | Số lượng bản ghi muốn lấy
 
 namespace App\Http\Controllers;
 
-use Ninhtqse\Api\Controller\EloquentBuilderTrait;
-use Ninhtqse\Api\Controller\LaravelController;
+use ProjectName\Api\Controller\EloquentBuilderTrait;
+use ProjectName\Api\Controller\LaravelController;
 use App\Models\Book;
 
 class BookController extends LaravelController
@@ -113,7 +113,7 @@ Lấy ra tất cả id của `Author`.
 
 Tách mảng `Author` ra thêm 1 mảng riêng nữa. trong `Book` vẫn sẽ có ids của `Author`
 
-[Xem về eager loading trong Ninhtqse\Architect's README](https://github.com/ninhtqse/architect)
+[Xem về eager loading trong ProjectName\Architect's README](https://github.com/duongld66/architect)
 
 ### Phân trang
 
@@ -221,7 +221,7 @@ For his ideas and his refusal to renounce them he was burned to the stake in 160
 
 * Parse GET parameters for dynamic eager loading of related resources, sorting and pagination
 * Advanced filtering of resources using filter groups
-* Use [Optimus\Architect](https://github.com/esbenp/architect) for sideloading, id loading or embedded loading of related resources
+* Use [duongld\Architect](https://github.com/esbenp/architect) for sideloading, id loading or embedded loading of related resources
 * ... [Ideas for new functionality is welcome here](https://github.com/esbenp/bruno/issues/new)
 
 ## Tutorial
@@ -232,7 +232,7 @@ To get started with Bruno I highly recommend my article on
 ## Installation
 
 ```bash
-composer require ninhtqse/bruno
+composer require duongld/bruno
 ```
 
 ## Usage
@@ -264,8 +264,8 @@ Take | integer | Number of records taken
 
 namespace App\Http\Controllers;
 
-use Ninhtqse\Api\Controller\EloquentBuilderTrait;
-use Ninhtqse\Api\Controller\LaravelController;
+use ProjectName\Api\Controller\EloquentBuilderTrait;
+use ProjectName\Api\Controller\LaravelController;
 use App\Models\Book;
 
 class BookController extends LaravelController
@@ -524,7 +524,7 @@ For example, this group of filters (Verbose)
                 "key": "author",
                 "value": "Prime",
                 "operator": "ew"
-            }
+            },
             {
                 "key": "deleted_at",
                 "value": null,

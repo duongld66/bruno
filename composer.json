@@ -1,5 +1,5 @@
 {
-    "name": "ninhtqse/bruno",
+    "name": "duongld/bruno",
     "autoload": {
         "psr-4": {
             "Ninhtqse\\Bruno\\": "src/"
@@ -9,7 +9,7 @@
         "laravel/framework": ">=5.4"
     },
     "require-dev": {
-        "ninhtqse/architect": "dev-master",
+        "duongld/architect": "dev-master",
         "satooshi/php-coveralls": "dev-master@dev"
     },
     "minimum-stability": "stable",
